@@ -75,13 +75,13 @@ describe('MJCFHumanoidTemplate', () => {
     // Verify joint decomposition structure
     // Spine should be 3-DOF spherical decomposed into yaw, pitch, roll hinges
     expect(xml.includes('name="mixamorigspine_yaw" type="hinge" axis="0 0 1"')).toBe(true);
-    expect(xml.includes('name="mixamorigspine_pitch" type="hinge" axis="1 0 0"')).toBe(true);
+    expect(xml.includes('name="mixamorigspine_pitch" type="hinge" axis="-1 0 0"')).toBe(true);
     expect(xml.includes('name="mixamorigspine_roll" type="hinge" axis="0 1 0"')).toBe(true);
 
-    // Left leg should be 1-DOF revolute/hinge (pitch)
+    // Left leg should be 1-DOF revolute/hinge (pitch) - this one is not flipped, remains 1 0 0
     expect(xml.includes('name="mixamorigleftleg_pitch" type="hinge" axis="1 0 0"')).toBe(true);
 
-    // Left foot should be 3-DOF decomposed (by default, if no 2-DOF restriction, or according to BONE_JOINT_TYPE)
+    // Left foot should be 3-DOF decomposed (by default, if no 2-DOF restriction, or according to BONE_JOINT_TYPE) - not flipped, remains 1 0 0
     expect(xml.includes('name="mixamorigleftfoot_pitch" type="hinge" axis="1 0 0"')).toBe(true);
 
     // Check capsule and box geom mapping

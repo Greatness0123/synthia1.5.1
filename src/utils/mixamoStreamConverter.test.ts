@@ -152,8 +152,9 @@ describe('convertMixamoStreamToTimeline', () => {
     console.log("TEST LEFTUPLEG VAL:", leftUpLegVal);
     expect(Array.isArray(leftUpLegVal)).toBe(true);
     const leftUpLegPitch = (leftUpLegVal as [number, number, number])[0];
-    expect(Math.abs(leftUpLegPitch)).toBeGreaterThanOrEqual(0.4);
-    expect(Math.abs(leftUpLegPitch)).toBeLessThanOrEqual(0.55);
+    // Assert sign directly (sign-aware assertion instead of Math.abs)
+    expect(leftUpLegPitch).toBeLessThan(-0.4);
+    expect(leftUpLegPitch).toBeGreaterThanOrEqual(-0.55);
 
     // RightUpLeg Frame 0: Z-rotation (roll, index 2) must be in a realistic band (not pinned to ±2.094)
     const rightUpLegVal = artifact.sequence[0].overrides['mixamorigrightupleg'];

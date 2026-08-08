@@ -237,7 +237,7 @@
           0.11042099740600866,
           -0.07009971097205857
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.1232126598321113,
         "mixamorigleftfoot": [
           0.0010924583922817387,
           0,
@@ -249,7 +249,7 @@
           -0.15783701347010456,
           -0.08272152076448026
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.351819350369408,
         "mixamorigrightfoot": [
           -0.1509762598981028,
           0,
@@ -353,7 +353,7 @@
           0.11201574625865408,
           -0.05548372532674523
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.9979586873030775,
         "mixamorigleftfoot": [
           -0.0441672879710456,
           0,
@@ -365,7 +365,7 @@
           -0.16651337459676824,
           -0.07664606918670212
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.3188174032042048,
         "mixamorigrightfoot": [
           -0.15865739516458627,
           0,
@@ -469,7 +469,7 @@
           0.10083979579159483,
           -0.048952559035433184
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.8255617611701912,
         "mixamorigleftfoot": [
           -0.07998132237770632,
           0,
@@ -481,7 +481,7 @@
           -0.17618334552092405,
           -0.06657266102058614
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.3074959708729589,
         "mixamorigrightfoot": [
           -0.17867784065808884,
           0,
@@ -585,7 +585,7 @@
           0.09098556599341391,
           -0.04433562657316058
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.6392980780742521,
         "mixamorigleftfoot": [
           -0.08781971318811986,
           0,
@@ -597,7 +597,7 @@
           -0.19032951019743644,
           -0.046925930820773176
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.3030794943935185,
         "mixamorigrightfoot": [
           -0.20810318582346984,
           0,
@@ -701,7 +701,7 @@
           0.08985150515847178,
           -0.03424724473860423
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.45910554461324676,
         "mixamorigleftfoot": [
           -0.04745068417355492,
           0,
@@ -713,7 +713,7 @@
           -0.19956588637437656,
           -0.022676720721669673
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.31119799032970874,
         "mixamorigrightfoot": [
           -0.23769677488227933,
           0,
@@ -817,7 +817,7 @@
           0.0804174031582319,
           -0.025740396401055927
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.3301524269446924,
         "mixamorigleftfoot": [
           -0.020128086398791097,
           0,
@@ -829,7 +829,7 @@
           -0.21000713565728352,
           0.003708237703050963
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.3486035618125292,
         "mixamorigrightfoot": [
           -0.252171819947438,
           0,
@@ -933,7 +933,7 @@
           0.06991210836256428,
           -0.02329279935237399
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.31584491029778516,
         "mixamorigleftfoot": [
           -0.05282903948984617,
           0,
@@ -945,7 +945,7 @@
           -0.21950532247483404,
           0.028432754566611155
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.3858267923205059,
         "mixamorigrightfoot": [
           -0.24279679337011167,
           0,
@@ -1049,7 +1049,7 @@
           0.08309440155058023,
           -0.015424091182440256
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.3664820676088225,
         "mixamorigleftfoot": [
           -0.12386930131970507,
           0,
@@ -1061,7 +1061,7 @@
           -0.22936877505201417,
           0.05239535693211383
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.42983604798670016,
         "mixamorigrightfoot": [
           -0.1986270589771075,
           0,
@@ -1165,7 +1165,7 @@
           0.11056801952480225,
           0.0027320865326791763
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.40717068932224215,
         "mixamorigleftfoot": [
           -0.13317247738764024,
           0,
@@ -1177,7 +1177,7 @@
           -0.2373064397372582,
           0.07698384079168553
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.47700937984435177,
         "mixamorigrightfoot": [
           -0.0868089535294628,
           0,
@@ -1281,7 +1281,7 @@
           0.12197469906603778,
           0.011974024870928362
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.4948338920866951,
         "mixamorigleftfoot": [
           -0.0350248369208965,
           0,
@@ -1293,7 +1293,7 @@
           -0.2399684303984652,
           0.09509286916174173
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.5167095772179532,
         "mixamorigrightfoot": [
           0.13463301072698952,
           0,
@@ -1397,7 +1397,7 @@
           0.11832428947418812,
           0.02022498684672231
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.5456541762198821,
         "mixamorigleftfoot": [
           0.10390408204394426,
           0,
@@ -1409,7 +1409,7 @@
           -0.23392070287967542,
           0.10344265377539684
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.5924539152276743,
         "mixamorigrightfoot": [
           0.36829979049967315,
           0,
@@ -1513,7 +1513,7 @@
           0.11505645408633981,
           0.030384071418142304
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.6497746424787654,
         "mixamorigleftfoot": [
           0.0002706444486960006,
           0,
@@ -1525,7 +1525,7 @@
           -0.2043237881561648,
           0.09809918630988605
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.6846399208072301,
         "mixamorigrightfoot": [
           0.5455635380922844,
           0,
@@ -1629,7 +1629,7 @@
           0.11169751046664143,
           0.039029790732153145
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.6641989369435062,
         "mixamorigleftfoot": [
           -0.0807861376358881,
           0,
@@ -1641,7 +1641,7 @@
           -0.18546352968313093,
           0.08562279394824464
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.819243417184912,
         "mixamorigrightfoot": [
           0.5615414004171944,
           0,
@@ -1745,7 +1745,7 @@
           0.1113971965344733,
           0.03936401548682641
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.6087814756135786,
         "mixamorigleftfoot": [
           -0.12751914104537596,
           0,
@@ -1757,7 +1757,7 @@
           -0.16369486762999502,
           0.06368723719292012
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.9196997329239147,
         "mixamorigrightfoot": [
           0.47432503506295565,
           0,
@@ -1861,7 +1861,7 @@
           0.1304737840629827,
           0.03291746492299126
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.5190213979319388,
         "mixamorigleftfoot": [
           -0.15317476162852187,
           0,
@@ -1873,7 +1873,7 @@
           -0.14593892866874789,
           0.03246708933023
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.9881507365141412,
         "mixamorigrightfoot": [
           0.3213777899638486,
           0,
@@ -1977,7 +1977,7 @@
           0.15106831680015717,
           0.023450439690869195
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.4110647231665365,
         "mixamorigleftfoot": [
           -0.16762893988536234,
           0,
@@ -1989,7 +1989,7 @@
           -0.13516677210798594,
           0.004033385713340101
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.9806928849287122,
         "mixamorigrightfoot": [
           0.16594381838415123,
           0,
@@ -2093,7 +2093,7 @@
           0.16005695794365724,
           0.01362622850367212
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.3262669783950347,
         "mixamorigleftfoot": [
           -0.1681119424673101,
           0,
@@ -2105,7 +2105,7 @@
           -0.13017900071685995,
           -0.012539643789959178
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.9077455881074208,
         "mixamorigrightfoot": [
           0.04452181500633916,
           0,
@@ -2209,7 +2209,7 @@
           0.1729803745806593,
           0.004710592816276515
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.2513619349139329,
         "mixamorigleftfoot": [
           -0.18099718951974583,
           0,
@@ -2221,7 +2221,7 @@
           -0.12080808556611013,
           -0.011410288252340804
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.7752253780010728,
         "mixamorigrightfoot": [
           -0.02600497780388853,
           0,
@@ -2325,7 +2325,7 @@
           0.18956784731502935,
           -0.003965989814784139
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.19417191367369901,
         "mixamorigleftfoot": [
           -0.21739712056134816,
           0,
@@ -2337,7 +2337,7 @@
           -0.10540657832257247,
           0.0014311704643000008
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.6058588635133886,
         "mixamorigrightfoot": [
           -0.075575344729868,
           0,
@@ -2441,7 +2441,7 @@
           0.21011753838590608,
           -0.019987197827789467
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.19423484253200227,
         "mixamorigleftfoot": [
           -0.2688692583290843,
           0,
@@ -2453,7 +2453,7 @@
           -0.0891924300712632,
           0.01586610878653417
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.4330049073464633,
         "mixamorigrightfoot": [
           -0.12724027252645817,
           0,
@@ -2557,7 +2557,7 @@
           0.22385706485301446,
           -0.04088694754075728
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.26995494601207026,
         "mixamorigleftfoot": [
           -0.3112513178195978,
           0,
@@ -2569,7 +2569,7 @@
           -0.08096847699723085,
           0.026061572066730366
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.2657936405931761,
         "mixamorigrightfoot": [
           -0.18039232637614433,
           0,
@@ -2673,7 +2673,7 @@
           0.21494088615677095,
           -0.057945484916634954
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.36987047945861934,
         "mixamorigleftfoot": [
           -0.3269788681563655,
           0,
@@ -2685,7 +2685,7 @@
           -0.08744173559267987,
           0.029624368200679745
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.17718993888066104,
         "mixamorigrightfoot": [
           -0.236562927432741,
           0,
@@ -2789,7 +2789,7 @@
           0.20256225652067872,
           -0.06755889118565526
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.4518782474608246,
         "mixamorigleftfoot": [
           -0.3037792001309108,
           0,
@@ -2801,7 +2801,7 @@
           -0.08942720922604666,
           0.030439484644917254
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.21856804479803812,
         "mixamorigrightfoot": [
           -0.27222317851624306,
           0,
@@ -2905,7 +2905,7 @@
           0.21799803405095694,
           -0.09035036117462171
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.4632970081027463,
         "mixamorigleftfoot": [
           -0.25180910471302054,
           0,
@@ -2917,7 +2917,7 @@
           -0.08951654675290763,
           0.02200370357137755
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.3537531098161458,
         "mixamorigrightfoot": [
           -0.25024101127631165,
           0,
@@ -3021,7 +3021,7 @@
           0.21645969210363666,
           -0.1134269198698997
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.4567249100076915,
         "mixamorigleftfoot": [
           -0.14222655237005902,
           0,
@@ -3033,7 +3033,7 @@
           -0.09805017245666665,
           0.00003439282990399577
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.46867567314619496,
         "mixamorigrightfoot": [
           -0.11168547816998732,
           0,
@@ -3137,7 +3137,7 @@
           0.19869689467141635,
           -0.11882759907326586
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.7101873859431409,
         "mixamorigleftfoot": [
           0.042379349859279776,
           0,
@@ -3149,7 +3149,7 @@
           -0.10871661481899272,
           -0.024694514267196988
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.5162079462174212,
         "mixamorigrightfoot": [
           0.04357875662673565,
           0,
@@ -3253,7 +3253,7 @@
           0.16867760278917107,
           -0.12872776656232862
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -0.8919020676032666,
         "mixamorigleftfoot": [
           0.1630872047698475,
           0,
@@ -3265,7 +3265,7 @@
           -0.1176857678830653,
           -0.05203393259356805
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.5158750000966118,
         "mixamorigrightfoot": [
           0.11085332181084075,
           0,
@@ -3369,7 +3369,7 @@
           0.14992941300705373,
           -0.1344617491510981
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.0487876980969506,
         "mixamorigleftfoot": [
           0.3183041298332244,
           0,
@@ -3381,7 +3381,7 @@
           -0.13366215401462314,
           -0.0870646650004705
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.555550693767992,
         "mixamorigrightfoot": [
           0.04317151704631696,
           0,
@@ -3485,7 +3485,7 @@
           0.12727712785997244,
           -0.1252811115346925
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.1528856042339908,
         "mixamorigleftfoot": [
           0.31271505828621304,
           0,
@@ -3497,7 +3497,7 @@
           -0.15231571770289298,
           -0.10551315519468908
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.5347187864283904,
         "mixamorigrightfoot": [
           -0.025842558113060382,
           0,
@@ -3601,7 +3601,7 @@
           0.10602967895528784,
           -0.10625522786726085
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.190050974032792,
         "mixamorigleftfoot": [
           0.1930454238462954,
           0,
@@ -3613,7 +3613,7 @@
           -0.15634614393620763,
           -0.10372487566300549
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.48709241994401803,
         "mixamorigrightfoot": [
           -0.0812698101400283,
           0,
@@ -3717,7 +3717,7 @@
           0.10191688390220818,
           -0.08655539710213345
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.1762644634494053,
         "mixamorigleftfoot": [
           0.07859614654773632,
           0,
@@ -3729,7 +3729,7 @@
           -0.1585374558582165,
           -0.09452463776755862
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.4279459108474246,
         "mixamorigrightfoot": [
           -0.12364340215373439,
           0,
@@ -3833,7 +3833,7 @@
           0.11042098569306569,
           -0.07009977568449091
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.1232126603038615,
         "mixamorigleftfoot": [
           0.001092470614797137,
           0,
@@ -3845,7 +3845,7 @@
           -0.15783676532310748,
           -0.0827213498734446
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.35181310322520787,
         "mixamorigrightfoot": [
           -0.1509736376155256,
           0,
@@ -3949,7 +3949,7 @@
           0.11042099740600866,
           -0.07009971097205857
         ],
-        "mixamorigleftleg": 0,
+        "mixamorigleftleg": -1.1232126598321113,
         "mixamorigleftfoot": [
           0.0010924583922817387,
           0,
@@ -3961,7 +3961,7 @@
           -0.15783701347010456,
           -0.08272152076448026
         ],
-        "mixamorigrightleg": 0,
+        "mixamorigrightleg": -0.351819350369408,
         "mixamorigrightfoot": [
           -0.1509762598981028,
           0,

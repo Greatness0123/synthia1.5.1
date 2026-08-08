@@ -65,6 +65,20 @@ function getPhysicsParentName(bone: THREE.Bone, trackedBones: Set<string>): stri
   return null;
 }
 
+// Per-bone sign calibration: these bones' baked parent-relative frames carry
+// a ~180° bind rotation about Z, which inverts the effective sign of the
+// local X hinge axis. Negating the pitch axis restores "+pitch = anatomical
+// forward" without touching the converter or requiring artifact regeneration.
+const PITCH_AXIS_FLIP: Record<string, string> = {
+  'mixamorigleftupleg':  '-1 0 0',
+  'mixamorigrightupleg': '-1 0 0',
+  'mixamorigspine':      '-1 0 0',
+  'mixamorigspine1':     '-1 0 0',
+  'mixamorigspine2':     '-1 0 0',
+  'mixamorigleftarm':    '-1 0 0',
+  'mixamorigrightarm':   '-1 0 0',
+};
+
 function getMuJoCoBoneGains(boneName: string): { kp: number; kv: number } {
   const name = boneName.toLowerCase();
 
@@ -260,20 +274,22 @@ export function generateAgentSubtreeMJCF(
     const kp = gains.kp;
     const kv = gains.kv;
 
+    const pitchAxis = PITCH_AXIS_FLIP[boneName] ?? '1 0 0';
+
     if (jointType === 'fixed') {
       jointsXML = '';
     } else if (jointType === 'revolute' || (constraint && constraint.dof === 1)) {
-      // Single Hinge Joint (Pitch: axis 1 0 0)
+      // Single Hinge Joint (Pitch: axis pitchAxis)
       const min = constraint?.x?.[0] ?? limits?.min ?? -2.618;
       const max = constraint?.x?.[1] ?? limits?.max ?? 0;
-      jointsXML = `<joint name="${prefix}${boneName}_pitch" type="hinge" axis="1 0 0" range="${getSafeRangeStr(min, max)}" limited="true"/>`;
+      jointsXML = `<joint name="${prefix}${boneName}_pitch" type="hinge" axis="${pitchAxis}" range="${getSafeRangeStr(min, max)}" limited="true"/>`;
       actuators.push(`<position name="act_${prefix}${boneName}_pitch" joint="${prefix}${boneName}_pitch" kp="${kp}" kv="${kv}" ctrlrange="${getSafeRangeStr(min, max)}"/>`);
     } else if (constraint && constraint.dof === 2) {
-      // 2-DOF Joint Decomposed into Pitch (1 0 0) and Roll (0 1 0)
+      // 2-DOF Joint Decomposed into Pitch (pitchAxis) and Roll (0 1 0)
       const minX = constraint.x[0], maxX = constraint.x[1];
       const minZ = constraint.z[0], maxZ = constraint.z[1];
       jointsXML = `
-        <joint name="${prefix}${boneName}_pitch" type="hinge" axis="1 0 0" range="${getSafeRangeStr(minX, maxX)}" limited="true"/>
+        <joint name="${prefix}${boneName}_pitch" type="hinge" axis="${pitchAxis}" range="${getSafeRangeStr(minX, maxX)}" limited="true"/>
         <joint name="${prefix}${boneName}_roll" type="hinge" axis="0 1 0" range="${getSafeRangeStr(minZ, maxZ)}" limited="true"/>
       `;
       actuators.push(`<position name="act_${prefix}${boneName}_pitch" joint="${prefix}${boneName}_pitch" kp="${kp}" kv="${kv}" ctrlrange="${getSafeRangeStr(minX, maxX)}"/>`);
@@ -299,7 +315,7 @@ export function generateAgentSubtreeMJCF(
       // 3-DOF Joint: Yaw -> Pitch -> Roll
       jointsXML = `
         <joint name="${prefix}${boneName}_yaw" type="hinge" axis="${yawAxis}" range="${getSafeRangeStr(minY, maxY)}" limited="true"/>
-        <joint name="${prefix}${boneName}_pitch" type="hinge" axis="1 0 0" range="${getSafeRangeStr(minX, maxX)}" limited="true"/>
+        <joint name="${prefix}${boneName}_pitch" type="hinge" axis="${pitchAxis}" range="${getSafeRangeStr(minX, maxX)}" limited="true"/>
         <joint name="${prefix}${boneName}_roll" type="hinge" axis="${rollAxis}" range="${getSafeRangeStr(minZ, maxZ)}" limited="true"/>
       `;
       actuators.push(`<position name="act_${prefix}${boneName}_yaw" joint="${prefix}${boneName}_yaw" kp="${kp}" kv="${kv}" ctrlrange="${getSafeRangeStr(minY, maxY)}"/>`);

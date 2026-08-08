@@ -234,6 +234,12 @@ export function convertMixamoStreamToTimeline(
       const clamp = (axis: 'x' | 'y' | 'z', v: number) =>
         constraint ? clampAngle(v, constraint[axis][0], constraint[axis][1]) : v;
 
+      // Knees: Synthia uses negative-flexion convention [-2.618, 0.0].
+      // Extracted stream pitch is positive, so we negate it to represent flexion.
+      if (bone === 'mixamorigleftleg' || bone === 'mixamorigrightleg') {
+        pitch = -Math.abs(pitch);
+      }
+
       if (is1Dof(bone)) {
         overrides[bone] = clamp('x', pitch);
       } else if (is2Dof(bone)) {
